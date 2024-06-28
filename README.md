@@ -9,7 +9,7 @@ Where $(^{2n}_{n})$ means combination you may use as $`C^{2n}_{n}`$ in Taiwanese
 
 Another one is recursive definition:<br>
 $`C_{0}=C{1}=1`$<br>
-$`C_{n}=\sum ^{n-1}_{i=0} C_{i}C_{n-i-1}`$ for $n \geq 2$
+$`C_{n}=\sum\limits_{i=0}^{n-1} C_{i}C_{n-i-1}`$ for $n \geq 2$
 
 
 ## <code>combination.vi</code>
